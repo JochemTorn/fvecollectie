@@ -21,6 +21,7 @@ export default function Home() {
             <Artwork src="4.png"></Artwork>
             <Artwork src="5.png"></Artwork>
             <Artwork src="6.png"></Artwork>
+            <Artwork src="7.png"></Artwork>
           </div>
         </Layout>
     </div>
