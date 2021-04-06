@@ -1,9 +1,7 @@
-import Image from 'next/image'
-
-export default function Artwork() {
+export default function Artwork(props) {
     return (
-    <div className="w-full flex justify-center">
-        <Image src="https://via.placeholder.com/150" width={150} height={150}/>
-    </div>
+        <a className="h-full w-full flex justify-center max-h-96" href={`/artwork/${props.src}`} target="blank">
+            <img class="border object-contain" src={`/artwork/${props.src}`}/>
+        </a>
     )
 }

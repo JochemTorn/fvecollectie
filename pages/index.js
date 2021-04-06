@@ -14,11 +14,13 @@ export default function Home() {
           <div className="h-28 flex items-center justify-center">
             <h1 className="text-4xl font-medium">{Sitetitle}</h1>
           </div>
-          <div className="justify-items-center grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-4">
-            <Artwork></Artwork>
-            <Artwork></Artwork>
-            <Artwork></Artwork>
-            <Artwork></Artwork>
+          <div className="justify-items-center grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+            <Artwork src="1.jpeg"></Artwork>
+            <Artwork src="2.jpeg"></Artwork>
+            <Artwork src="3.png"></Artwork>
+            <Artwork src="4.png"></Artwork>
+            <Artwork src="5.png"></Artwork>
+            <Artwork src="6.png"></Artwork>
           </div>
         </Layout>
     </div>
