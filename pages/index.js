@@ -1,20 +1,18 @@
 import Head from 'next/head'
+import Header from '../components/layout/Header'
+import Footer from '../components/layout/Footer'
 import Artwork from '../components/Artwork'
-import Layout from '../components/Layout'
-import Nav from '../components/Nav'
-const Sitetitle = "De FVE Collectie 2020/2021"
+import Layout from '../components/layout/Layout'
 
 export default function Home() {
   return (
-    <div className="h-screen">
+    <div>
       <Head>
-        <title>{Sitetitle}</title>
+        <title>{Header.Sitetitle}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
       </Head>
         <Layout>
-          <div className="h-28 flex items-center justify-start">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-medium">{Sitetitle}</h1>
-          </div>
+          <Header/>
           <div className="justify-items-center grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             <Artwork src="1.jpeg"></Artwork>
             <Artwork src="2.jpeg"></Artwork>
@@ -24,6 +22,7 @@ export default function Home() {
             <Artwork src="6.png"></Artwork>
             <Artwork src="7.png"></Artwork>
           </div>
+          <Footer/>
         </Layout>
     </div>
   )
