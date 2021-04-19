@@ -10,9 +10,13 @@ export default function Home() {
             <Artwork src="2.jpeg"/>
             <Artwork src="3.png"/>
             <Artwork src="4.png"/>
+            <Artwork src="4 bijlage.png"/>
             <Artwork src="5.png"/>
             <Artwork src="6.png"/>
             <Artwork src="7.png"/>
+            <Artwork src="8.png"/>
+            <Artwork src="8 bijlage.png"/>
+            <Artwork src="9.png"/>
           </div>
         </Layout>
     </div>
